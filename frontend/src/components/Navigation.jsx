@@ -41,7 +41,7 @@ const Navigation = () => {
               <i className="fa fa-user-circle"></i>
               {!user ? "" : firstName}
             </Link>
-            <button className="main-nav-item" onClick={handleLogout}>
+            <button className="main-nav-item btn-link" onClick={handleLogout}>
               <i className="fa fa-sign-out"></i>
               Sign Out
             </button>
